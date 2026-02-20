@@ -5,7 +5,7 @@ Laboratório prático de análise de logs e detectação de brute force utilizan
 Simular tentativas de login e detectar comportamento suspeito através de consultas SQL. 
 
 ## Tecnologias
--PostgreeSQL
+- PostgreeSQL
 - pgAdmin
   
 ## Funcionalidades
