@@ -1,0 +1,3 @@
+CREATE TABLE users ( id SERIAL PRIMARY KEY, usename TEXT UNIQUE, email TEXT, password TEXT, role TEXT, created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP);
+
+CREATE TABLE login_logs ( id SERIAL PRIMARY KEY, username TEXT, ip_address TEXT, success BOOLEAN, login_time TIMESTAMP DEFAULT CURRENT_TIMESTAMP);
